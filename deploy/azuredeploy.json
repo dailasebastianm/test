@@ -111,7 +111,9 @@
             "VV_COLOR_PALETTE": "[variables('colorPalette')]",
             "VV_WAITING_TITLE": "[variables('waitingTitle')]",
             "VV_WAITING_SUBTITLE": "[variables('waitingSubtitle')]",
-            "VV_LOGO_URL": "[variables('logoUrl')]"
+            "VV_LOGO_URL": "[variables('logoUrl')]",
+            "VV_POSTCALL_SURVEY_TYPE": "[variables(variables('postCall').survey.type]",
+            "VV_POSTCALL_SURVEY_OPTIONS_SURVEYURL": "[variables('postCall').survey.options.surveyUrl]"
           }
         },
         {
