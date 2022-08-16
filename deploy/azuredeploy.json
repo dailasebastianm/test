@@ -112,8 +112,8 @@
             "VV_WAITING_TITLE": "[variables('waitingTitle')]",
             "VV_WAITING_SUBTITLE": "[variables('waitingSubtitle')]",
             "VV_LOGO_URL": "[variables('logoUrl')]",
-            "VV_POSTCALL_SURVEY_TYPE": "[if(empty(variables('postCall')),\"\",variables('postCall').survey.type)]",
-            "VV_POSTCALL_SURVEY_OPTIONS_SURVEYURL": "[if(empty(variables('postCall')),\"\",variables('postCall').survey.options.surveyUrl]"
+            "VV_POSTCALL_SURVEY_TYPE": "[if(empty(variables('postCall')), json('null'), variables('postCall').survey.type)]",
+            "VV_POSTCALL_SURVEY_OPTIONS_SURVEYURL": "[if(empty(variables('postCall')), json('null'), variables('postCall').survey.options.surveyUrl)]"
           }
         },
         {
