@@ -99,3 +99,5 @@ e2e-tests/playwright/.cache/
 # Your Windows development environment may differ from someone else's. For more information, visit https://playwright.dev/docs/test-snapshots
 e2e-tests/tests/snapshots/**/*win*.png
 
+
+
